@@ -1,0 +1,7 @@
+# Ignore Dir
+.history
+source/data
+
+# Ignore File
+*.pyc
+*.log

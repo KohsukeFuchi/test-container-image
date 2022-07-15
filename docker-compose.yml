@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  python:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: test-python
+    volumes:
+      - ./source:/home/source
+    environment:
+      TZ: "Asia"
+    tty: true
+    privileged: true
