@@ -12,7 +12,8 @@ RUN apt-get install -y \
         tar \
         gdal-bin \
         libgdal-dev \
-        cron
+        cron \
+        git
 
 ENV FC gfortran
 ENV CC gcc
